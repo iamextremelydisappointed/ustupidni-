@@ -136,6 +136,6 @@ window.onkeydown = function() {
 }
 
 window.onbeforeunload = function() {
-    return "Are you an idiot?";
+    return "are you a sigma";
 };
 /* [Oct 2021] End of amendments. */
