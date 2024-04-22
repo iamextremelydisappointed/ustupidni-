@@ -8,7 +8,7 @@ function musicPlay() {
 	micon.addEventListener('click', musicPlay);
 	
 	if (audio.duration > 0 && audio.paused) {
-		audio.paused();
+		audio.pause();
 		micon.src = "images/speaker.png";
 	}
 	else {
