@@ -12,7 +12,7 @@ function musicPlay() {
 		micon.src = "images/speaker.png";
 	}
 	else {
-		audio.pause();
+		audio.play();
 		audio.currentTime = 0;
 		
 		micon.src = "images/speakerm.png";
