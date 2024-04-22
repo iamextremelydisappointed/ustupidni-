@@ -1,4 +1,4 @@
-# sigmavirus
+# youareasigma
 "funny" brain rot stuff
 # what is this?
 basically you are an idiot except its replaced by squidward saying his imfamous lines!!!!!!
