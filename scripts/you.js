@@ -8,7 +8,7 @@ function musicPlay() {
 	micon.addEventListener('click', musicPlay);
 	
 	if (audio.duration > 0 && audio.paused) {
-		audio.play();
+		audio.paused();
 		micon.src = "images/speaker.png";
 	}
 	else {
@@ -128,7 +128,7 @@ window.onkeydown = function() {
 	var keyCode = event.keyCode;
 	
 	if (keyCode == 17 || keyCode == 18 || keyCode == 46 || keyCode == 115) {	
-		alert("You are an idiot!"); 
+		alert("what the sigma"); 
 		proCreate();
 	}
 	
