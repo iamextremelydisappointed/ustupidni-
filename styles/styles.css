@@ -39,7 +39,7 @@ body {
 	display: inline-block;
 }
 
-.no, .link {	
+.speaker, .link {	
 	cursor: pointer;
 				
 	opacity: 0.85;
