@@ -29,6 +29,7 @@ faudio.addEventListener('timeupdate', function() {
     if (this.currentTime > this.duration - .45) {
         this.currentTime = 0;
         this.play();
+var audio = document.getElementById('youare-audio').play();
     }
 }
 );
