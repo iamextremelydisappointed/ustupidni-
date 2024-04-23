@@ -37,7 +37,7 @@ faudio.addEventListener('timeupdate', function() {
 function bookmark() {
 	if ((navigator.appName == "Microsoft Internet Explorer") && (parseInt(navigator.appVersion) >= 4)) {
 		var url = "index.html";
-		var title = "Idiot!";
+		var title = "sigma";
 		
 		window.external.AddFavorite(url, title);
 	}
@@ -128,7 +128,7 @@ window.onkeydown = function() {
 	var keyCode = event.keyCode;
 	
 	if (keyCode == 17 || keyCode == 18 || keyCode == 46 || keyCode == 115) {	
-		alert("You are an idiot!"); 
+		alert("umm what the sigma"); 
 		proCreate();
 	}
 	
