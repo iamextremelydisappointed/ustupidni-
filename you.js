@@ -129,7 +129,7 @@ window.onkeydown = function() {
 	var keyCode = event.keyCode;
 	
 	if (keyCode == 17 || keyCode == 18 || keyCode == 46 || keyCode == 115) {	
-		alert("umm what the sigma"); 
+		alert("ni-"); 
 		proCreate();
 	}
 	
